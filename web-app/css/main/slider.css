@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/**
+* This file is part of oWrks.
+*
+* oWrks is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+*  any later version.
+*
+* oWrks is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with oWrks.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/*
+	Slideshow style
+*/
+#slider {
+	height:300px;
+	position:relative;
+}
+#slides {
+	position:absolute;
+	top:15px;
+	left:4px;
+	z-index:100;
+}
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	If height not specified height will be set by the slide content
+	Set to display none, prevents content flash
+*/
+.slides_container {
+	width:910px;
+	height:220px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	Offeset for the 20px of padding
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+#slides .slide {
+	padding: 0;
+	width:880px;
+	height:230px;
+	display:block;
+}
+
+#slides .slide h2{
+	font-size: 24px;
+	padding-bottom: 15px;
+}
+#slides .slide p{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:20px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	padding: 0px !important;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image: url(../../images/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+	border: none;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+

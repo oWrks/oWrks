@@ -1,0 +1,68 @@
+/**
+* This file is part of oWrks.
+*
+* oWrks is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+*  any later version.
+*
+* oWrks is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with oWrks.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* LOGIN Controller styles */
+#login {
+	margin: 15px 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#login .inner {
+	width: 260px;
+	margin: 0px auto;
+	text-align: left;
+	padding: 10px;
+}
+
+#login .inner .fheader {
+	padding: 4px;
+	margin: 3px 0px 3px 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#login .inner .cssform p {
+	clear: left;
+	margin: 0;
+	padding: 5px 0 8px 0;
+	padding-left: 105px;
+	margin-bottom: 10px;
+	height: 1%;
+}
+
+#login .inner .cssform input[type="text"] {
+	width: 120px;
+}
+
+#login .inner .cssform label {
+	font-weight: bold;
+	float: left;
+	margin-left: -105px;
+	width: 100px;
+}
+
+#login .inner .login_message {
+	color: red;
+}
+
+#login .inner .text_ {
+	width: 120px;
+}
+
+#login .inner .chk {
+	height: 12px;
+}

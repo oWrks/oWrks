@@ -1,0 +1,340 @@
+/**
+* This file is part of oWrks.
+*
+* oWrks is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+*  any later version.
+*
+* oWrks is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with oWrks.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* oWrks - general styles */
+img {
+	border: none;
+}
+
+p{
+	line-height: 1.4em;
+	font-size: 12px;
+}
+h1{
+	font-size: 20px;
+	font-weight: normal;
+}
+	
+h2, h2 a{
+	font-size: 18px;
+	font-weight: normal;
+}
+
+h3, h3 a {
+	font-size: 16px;
+	font-weight: normal;
+}
+ul{
+	list-style: none;
+}
+
+a{
+	font-size: 12px;	
+	color: #8BC53E;
+}
+
+a:link, a:visited{
+	color: #8BC53E;
+	text-decoration: none;
+	border: none 0;
+}
+
+a:hover {
+	color: #8BC53E;
+	text-decoration: none;
+	border-bottom: solid 1px #8BC53E;
+}
+
+input[type=submit]{
+	font-size: 12px;
+}
+
+input#searchField {
+	padding:3px;
+}
+input.inputHelp {
+	color: #ccc;
+}
+
+a.confirmed {
+	font-weight:bold;
+}
+
+.paging p, .title p{
+	padding-left: 20px;
+}
+
+.small{
+	font-size: 10px !important;
+	text-transform: none;
+}
+
+.normal{
+	font-size: 12px !important;
+	text-transform: none;
+}
+.big{
+	font-size: 16px !important;
+	text-transform: none;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	float: none;
+}
+.hidden {
+	display: none;
+}
+.box .error{
+	color:#FF0000;
+}
+/* ein- und ausklappen von steps*/
+h2.trigger {
+ background: url(../../images/pfeil_rechts.png) no-repeat; 
+ background-position: left;
+ margin-left: 10px;
+ padding-left: 20px !important;
+font-size: 1.0em;
+font-weight: bold;
+display: block;
+
+}
+h2.trigger a {
+display: block;
+}
+h2.trigger a:hover { color: #ccc; }
+h2.active {
+background: url(../../images/pfeil_runter.png) no-repeat;
+background-position: left;
+}
+/* ein- und ausklappen von missions auf der owo-show*/
+h3.trigger {
+background: url(../../images/pfeil_runter.png) no-repeat;
+background-position: left;
+margin-left: 10px;
+padding-left: 15px !important;
+font-size: 1.2em;
+font-weight: bold;
+display: block;
+
+}
+h3.trigger a {
+	display: block;
+	border: none;
+}
+h3.trigger a:hover { color: #ccc; }
+h3.active {
+ background: url(../../images/pfeil_rechts.png) no-repeat; 
+ background-position: left;
+ 
+} 
+.toggle_container {
+	margin-left: 20px;
+	overflow: hidden;
+	clear: both;
+}
+
+
+#header #logo a{
+	border: none;
+}
+#content .owo-list-item img{
+	width: 100px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+#content .owo-list-item img.small-icon{
+	width: 30px;
+	margin: 0 5px;
+}
+
+#owo-info{
+	float: left;
+}
+
+#owo-info h1{
+	margin: 30px 0 0 20px;
+	
+}
+#owo-info div.hashtag{
+	margin: 0 20px;
+}
+#owo-info .phase-info, #owo-info .hashtag{
+	color: #999999;
+}
+
+
+#phase-info{
+	color: #999;
+	margin: 30px 20px 20px 20px;
+	float: right;
+}
+#phase-info .highlight{
+	font-weight: bold;
+	color: #8bc53e;
+}
+
+#phase-info .current{
+	color: #8bc53e;
+	font-weight: bold;
+}
+
+/*in show und invite*/
+#invitationBox {
+	border: 1px solid #000000;
+	width: 400px;
+}
+
+
+/* workflow state */
+#workflowState {
+	float:left;
+	margin-left: 20px;
+	font-size:12px;
+}
+#workflowState h3{
+	color: #8BC53E;
+}
+
+span.currentState, span.otherState { 
+	float:left;
+	background: none repeat scroll 0 0 ;
+    border: 0 none;
+}
+
+span.currentState {
+	color: #8BC53E;
+}
+
+span.otherState {
+	color: #999999;
+}
+
+span.otherState.finished {
+	background: url("../../images/finished_grey.png") no-repeat scroll right;
+	color: #E5E5E5;
+	padding-right: 15px;
+}
+
+span.stateSpacer {
+    color: #8BC53E;
+    display: block;
+    float: left;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+
+ul.sortable li:hover {
+}
+
+form.stepForm, form.missionForm, form.owoForm {
+	float: left;
+    padding: 0 !important;
+    width: auto !important;
+}
+
+span.draggable {
+	background: url( "../../images/draggable.gif") no-repeat;
+	width: 14px;
+	height: 14px;
+	display: block;
+	float: left;
+	margin: 0 5px;
+	cursor: move;
+}
+
+div.stepInfo {
+	float:left;
+}
+
+div.stepActions {
+	float:left;
+}
+
+span.owoOwner {
+	font-size: 9px;
+	font-style: italic;
+}
+
+span.assignedToYou {
+	background: #ffff99;
+	padding:2px 5px;
+}
+
+
+/* step-assignedTo */
+span.assignedTo {
+	padding: 0px 5px;
+	background: #999999;
+	border-radius: 5px 5px 5px 5px;
+}
+
+span.assignedTo, span.assignedTo a { 
+	color: #fff; 
+	font-size: 10px;
+}
+
+h3#toggleMission {
+	margin: 0 10px;
+}
+
+h3#toggleMission span {
+	cursor:pointer;
+	float:right;
+	color: #8BC53E;
+}
+
+h3#toggleMission span:hover {
+	text-decoration:underline;
+}
+
+ul#owoPictureList li{
+	float: left;
+}
+ul#owoPictureList li:hover, ul#owoPictureList li.active{
+	border: solid 1px #8BC53E;
+	margin: -1px;
+	cursor: pointer;
+}
+
+ul#owoPictureList li img{
+	width: 40px;
+}
+
+span.notify_highlight {
+	color:#FF8C00
+}
+
+h2.box-header{
+	background: #e5e5e5; 
+}
+div.info-box{
+	margin:20px 10px !important;
+}
+h2.info-list-header, h2.owo-list-header{
+	background: #e5e5e5; 
+	margin-top:20px;
+}

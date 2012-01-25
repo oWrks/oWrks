@@ -1,0 +1,131 @@
+/**
+* This file is part of oWrks.
+*
+* oWrks is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+*  any later version.
+*
+* oWrks is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with oWrks.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* oWrks - navigation.css */
+/*Top Navigation*/
+#header #topnav {
+	float: right;
+	position: relative;
+	list-style: none;
+	margin: 15px 0 0;
+	text-transform: uppercase;
+}
+#header #topnav li {
+	border-right: 1px solid #E5E5E5;
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 7px 10px 0 0;
+	vertical-align: middle;
+}
+#header #topnav li:last-child {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+#header #topnav li a:link, #header #topnav li a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+#header #topnav li a:hover, #header #topnav li a.current {
+	color: #8bc53e;
+	text-decoration: none;
+}
+
+#header #topnav #home a{
+	border: none;
+}
+
+/*Login Box*/
+#header #topnav	#login-box{	
+	width: 190px;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	z-index: 200;
+	padding: 5px;
+	background:#FFF;
+	border: 1px solid #E5E5E5;
+	display: none;
+	text-transform: none;
+}
+#header #topnav #login-box label{
+	color: #999999;
+}
+
+#header #topnav #login-box input.textfield {
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    color: #999999;
+ 	width: 90%;
+}
+
+/* Search Box */
+	
+#header #topnav li .search-box input.search-field {
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    color: #999999;
+	font-size: 0.9em;
+    height: 20px;
+    width: 230px;
+   
+}
+#header #topnav li .search-box input.search {
+    background: url(../../images/search.png) no-repeat;
+	border: none 0;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+	vertical-align: top;
+}
+
+/*Main Navigation */
+#nav {
+	margin: 0 20px 0;
+	list-style: none;
+	float:right;
+}
+
+#nav li {
+	border-left: 1px solid #E5E5E5;
+	border-top: 1px solid #E5E5E5;
+	
+	float: left;
+	margin: 0 ;
+}
+#nav li:last-child {
+	border-right: 1px solid #E5E5E5;
+}
+
+#nav li.active a {
+	color: #8BC53E !important;
+	font-weight:bold;
+}
+
+#nav li a, #nav li span.inactive{
+	padding: 10px;	
+	display: block;
+	border-bottom: 1px solid #FFF;
+}
+#nav li a:link, #nav li a:visited, #nav li span.inactive {
+	color: #999999;
+	text-decoration: none;
+}
+#nav li a:hover, #nav li a.current{
+	color: #8bc53e;
+	text-decoration: none;
+}
+

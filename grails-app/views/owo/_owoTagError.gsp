@@ -1,0 +1,2 @@
+<h3><g:message code="owo.not.found.by.tag" args="[params.tag]" default="Zu diesem Tag gibt es keine Owos!" /></h3>
+<g:link controller="owo" action="create" class="button right normal">oWo erstellen</g:link>

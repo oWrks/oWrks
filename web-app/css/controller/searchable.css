@@ -1,0 +1,68 @@
+/**
+* This file is part of oWrks.
+*
+* oWrks is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+*  any later version.
+*
+* oWrks is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with oWrks.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* oWrks - search controller styles */
+h1 {
+	float: left;
+}
+
+#header form input {
+	padding: .1em;
+}
+
+#header .hint {
+	color: gray;
+}
+
+#header form {
+	padding-top: .1em;
+}
+
+p.additionalInfos {
+	font-size:11px;
+}
+
+.title {
+	margin: 10px 0;
+}
+
+.result {
+	margin-bottom: 1em;
+}
+
+.result .displayLink {
+	color: green;
+}
+
+.result .name {
+	font-size: larger;
+}
+
+.paging a.step {
+	padding: 0 .3em;
+}
+
+.paging span.currentStep {
+	font-weight: bold;
+}
+
+ul {
+	margin: 1em 2em;
+}
+
+li,p {
+	margin-bottom: 1em;
+}

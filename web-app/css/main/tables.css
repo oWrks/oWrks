@@ -1,0 +1,106 @@
+/**
+* This file is part of oWrks.
+*
+* oWrks is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+*  any later version.
+*
+* oWrks is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with oWrks.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* oWrks - table styles */
+table {
+    border-collapse:separate;
+	border-spacing:0;
+	width: 100%;
+}
+
+table td a, th a {
+	text-decoration:none;
+	border: none;
+}
+
+table td a:hover, th a:hover { 
+	text-decoration:none;
+	border: none;
+}
+table form{
+	padding: 0 !important;
+}
+
+tr {
+    border: 0;
+}
+
+tr.notRead {
+	font-weight:bold;
+}
+
+td {
+    vertical-align: top;
+    padding: 5px 10px 5px;
+}
+
+th {
+    border-bottom: 1px solid #D2D1CB;
+    padding: 5px 10px 5px;
+    text-align: left;
+    
+}
+
+th a:link, th a:visited, th a:hover {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+}
+
+th.asc a, th.desc a {
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right:10px;
+}
+
+th.asc a {
+    background-image: url(../../images/skin/sorted_asc.gif);
+}
+
+th.desc a {
+    background-image: url(../../images/skin/sorted_desc.gif);
+}
+
+
+
+/* LIST */
+
+.list table {
+    border-collapse: collapse;
+}
+
+.list th, .list td {
+}
+
+.list th:hover, .list tr:hover {
+}
+
+
+.list .odd {
+    
+}
+
+.list .even {
+	background-color: #E5E5E5;
+}
+
+.list table .buttons{
+
+}
+
+.list table form{
+	width: auto;
+}

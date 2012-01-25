@@ -1,0 +1,47 @@
+package owrks.admin
+/**
+* This file is part of oWrks.
+*
+* oWrks is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+*  any later version.
+*
+* oWrks is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with oWrks.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+import owrks.user.User
+
+class Page {
+	
+	User creator
+	String name
+	String title
+	String content
+	User lastEditor
+	
+	Date dateCreated
+	Date lastUpdated
+
+    static constraints = {
+		name(blank: false)
+		title(blank: false)
+		lastEditor(nullable: true)
+    }
+	
+	static mapping = {
+		content type:'text'
+	}
+	
+	def beforeInsert = {
+		name = name[0].toLowerCase() + name[1..(name.length()-1)]
+		if(!lastEditor)
+			lastEditor = creator
+	}
+}

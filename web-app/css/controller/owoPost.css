@@ -1,0 +1,97 @@
+@import '../wall.css';
+/**
+* This file is part of oWrks.
+*
+* oWrks is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+*  any later version.
+*
+* oWrks is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with oWrks.  If not, see <http://www.gnu.org/licenses/>.
+*/
+div#postList {
+	float:left;
+	width: 620px;
+	padding: 10px;
+}
+
+div.owoPost {
+	padding: 3px 0px 15px 5px !important;
+}
+
+div.owoPost:hover { 
+	padding: 3px 0px 15px 0px !important;
+	border-left: 5px solid #8BC53E;
+}
+
+
+
+input#postContent {
+	width: 500px;
+	float:left;
+	height:20px;
+}
+
+
+div#fileBox {
+	float:left;
+	width: 210px;
+	margin-top:20px;
+	padding:0 10px;
+}
+
+div#fileBox div.attachment {
+	background: none;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+div.postContent p.content {
+	padding: 10px 0 !important;
+}
+
+
+div#postList p.link a {
+	margin-left:30px;
+}
+
+
+div#fileBox p.link a {
+	margin-left:10px;
+}
+
+a.userPicture img {
+	width: 14px;
+	padding:0 !important;
+}
+
+
+div.commentForm {
+	display:none;
+	margin-top: 10px;
+}
+
+div.postComment a.userPicture, div.commentForm a.userPicture {
+	margin: 4px 0px 10px !important;
+}
+
+div.postComment, div.commentForm {
+	margin: 10px 0 0 40px;
+}
+
+
+div.commentContent {
+	float:left;
+	margin: 0 0 0 10px;
+}
+
+div.commentContent form { 
+	margin: 0 0 0 0px;
+}
+
+

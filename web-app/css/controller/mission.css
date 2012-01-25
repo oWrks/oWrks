@@ -1,0 +1,325 @@
+/**
+* This file is part of oWrks.
+*
+* oWrks is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+*  any later version.
+*
+* oWrks is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with oWrks.  If not, see <http://www.gnu.org/licenses/>.
+*/
+div#missionContent {
+	padding:0 10px;
+}
+
+div#wallForm {
+	margin: 10px 0px;
+}
+
+.col1-step {
+	background: none repeat scroll 0 0 #E5E5E5;
+    border: 1px solid #E5E5E5;
+    /*float: left;*/
+    position: absolute;
+    width: 500px;
+    z-index: 100;
+    margin-left:420px;
+}
+
+.col2-step {
+	/*width: 48%;
+	float:left;*/
+	width: 100%;
+}
+
+div.addMission {
+	display:none;
+}
+
+div.filter { padding: 0 10px; }
+div.filterItem {
+	margin: 0 10px 20px 0;
+	float:left;
+}
+div.filterItem select, .filterItem input {
+	width: 200px;
+}
+
+h3, h3 a { 
+	font-size: 12px;
+	font-weight:bold;
+}
+
+h3 a.edit{ float:left !important; }
+
+ul.stepList {
+}
+
+li.step, ul.stepList {
+	padding:0 5px 0 0;
+}
+
+li.step {
+	margin: 5px 0;
+}
+
+#content .box .box {
+	margin: 0 10px 20px;
+}
+
+
+div.owo-missions {
+	border-bottom: 2px solid #D6D6D6;
+	background: #E5E5E5;
+}
+
+/* Step navigation */
+ul#postNav {
+	margin: 0;
+	padding:0;
+	list-style: none;
+	float:left;
+}
+
+#postNav li {
+	float: left;
+	margin: 0;
+	padding: 5px 15px 5px 30px;
+}
+#postNav li:last-child {
+	
+}
+
+#postNav li.active {
+	color: #8BC53E !important;
+	font-weight:bold;
+}
+
+#postNav li:hover {
+	color:#8BC53E;
+	cursor:pointer;
+}
+
+a.stepTitle {
+	width: 420px;
+	display:block;
+	float:left;
+	overflow:hidden;
+	margin-right:10px;
+	padding-left:5px;
+}
+
+a.stepTitle:hover { 
+	color: #fff;
+	background:#999999;
+	border-bottom:0;
+}
+
+div.toggle_container{
+	margin:0 0 20px 10px !important;
+}
+
+
+/* CK-Editor */
+span.cke_skin_kama {
+	border:0 !important;
+	padding:0 !important;
+}
+
+form.stepEditor{
+	padding:0;
+	width: auto !important;
+}
+
+div#filetree {
+	width: 0px !important;
+}
+
+
+/* Upload */
+div#uploadWrapper {
+	padding:10px;
+}
+
+span.uploader, span.uploader a {
+	font-size: 10px;
+}
+
+ul#attachments {
+	list-style-type:decimal !important;
+	margin-left:10px;
+	padding:0 0 0 20px;
+}
+
+ul#attachments li { 
+	padding:3px 10px 3px 5px !important;
+}
+
+
+
+/* Step-Wall */
+div#stepCommentList {
+	/*float:left;
+	width: 600px;*/
+	padding-bottom: 20px;
+}
+
+input#stepCommentContent {
+	width: 400px;
+	float:left;
+	height:20px;
+}
+
+a.userPicture img {
+	width:20px;
+}
+
+
+div.stepForm {
+	padding: 15px 5px;
+	border-top: 1px solid #EAEAEA;
+	width: 500px;
+	display:none;
+	margin-bottom:10px;
+}
+
+div.stepForm:first {
+	display:block;
+}
+
+div.buttonWrapper {
+	margin-top:10px;
+	clear:both;
+}
+
+div#streamContentWrapper {
+	border-top:5px solid #EAEAEA;
+	padding:20px 0;
+}
+
+div#stepStream {
+	float:left;
+	width: 600px;
+	min-height: 400px;
+}
+
+div#streamFilter, div#stepDescription {
+	margin-left: 30px;
+    width: 246px;
+	border: 1px solid #8BC53E;
+	float:left;
+}
+
+div#streamFilter div.filterContent, div#stepDescription div { 
+	padding: 5px;
+}
+
+div#stepDescription {
+	margin-top: 20px;
+}
+
+div#streamFilter h3, div#stepDescription h3 { 
+	padding:5px;
+	background: #8BC53E;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+div#stepDescription p { 
+	padding: 3px 5px;
+}
+
+div#streamFilter {
+}
+
+div.streamItem {
+	clear:both;
+	padding: 3px 0px 15px 5px;
+	min-height: 50px;
+	margin: 5px 0;
+}
+
+div.streamItem:hover { 
+	padding: 3px 0px 15px 0px;
+	border-left: 5px solid #8BC53E;
+}
+
+
+ul.sortableStream, ul.sortableStream li {
+	padding: 0 !important;
+}
+
+
+div.stepText, div.stepTextFilter, li#addTextLink {
+	background: url("../../images/wall/page.png") no-repeat;
+}
+
+div.stepComment, div.stepCommentFilter, li#addMessageLink {
+	background: url("../../images/wall/note.png") no-repeat;
+}
+
+div.stepAttachment, div.stepAttachmentFilter, li#addAttachmentLink {
+	background: url("../../images/wall/attach.png") no-repeat;
+}
+
+div.stepLink, div.stepLinkFilter, li#addLinkLink {
+	background: url("../../images/wall/world.png") no-repeat;
+}
+
+li#addVideoLink, div.stepVideo, div.stepVideoFilter {
+	background: url("../../images/wall/film.png") no-repeat;
+}
+
+div.stepText, div.stepComment, div.stepAttachment, div.stepLink, div.stepVideo { 
+	background-position: 578px 8px;
+}
+
+div.stepText:hover, div.stepComment:hover, div.stepAttachment:hover, div.stepLink:hover, div.stepVideo:hover { 
+	background-position: 573px 8px;
+}
+
+div.stepCommentFilter, div.stepTextFilter, div.stepLinkFilter, div.stepAttachmentFilter, div.stepVideoFilter {
+	background-position: 0 1px;
+    padding: 3px 0 5px 20px;
+}
+
+li#addMessageLink, li#addLinkLink, li#addTextLink, li#addAttachmentLink, li#addStepLink {
+	background-position: 7px 3px;
+    /*padding: 3px 0 5px 20px;*/
+}
+
+p#toggleSortable {
+	
+}
+
+div.nicEdit-main ul, div.nicEdit-main ol, div.wallItemContent ul, div.wallItemContent ol {
+	margin-left: 15px;
+}
+div.nicEdit-main ul, div.wallItemContent ul {
+	list-style-type: disc;
+}
+
+div.nicEdit-main ol, div.wallItemContent ol {
+	list-style-type: decimal;
+}
+
+div.nicEdit-main ul li, div.nicEdit-main ol li, div.wallItemContent ul li, div.wallItemContent ol li{ 
+	padding:0 2px;
+}
+
+
+div.stepInfo.finished, div.stepInfo.finished a {
+	text-decoration: line-through;
+}
+
+
+
+div#linkFields label {
+	display:block;
+}

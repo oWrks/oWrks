@@ -1,0 +1,187 @@
+/**
+* This file is part of oWrks.
+*
+* oWrks is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+*  any later version.
+*
+* oWrks is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with oWrks.  If not, see <http://www.gnu.org/licenses/>.
+*/
+div#posts {
+	
+}
+
+
+div.owoPost, div.stepComment {
+	margin: 10px 0 20px 0; 
+}
+
+div.stepComment {
+	margin: 0;
+}
+
+div.owoPost a.userPicture, div.streamItem a.userPicture { 
+	display:block;
+	float:left;
+	margin: 4px 10px 0 10px;
+}
+
+
+/*a.userPicture img { 
+	width: 80px;
+	padding:0 !important;
+}*/
+
+a.userPicture img {
+	width: 14px;
+	padding:0 !important;
+}
+
+div.wallItemContent {
+	float:left;
+	padding: 2px 5px 0 33px !important;
+	width: 488px;
+	overflow: hidden;
+}
+
+
+div.postContent {
+	overflow:hidden;
+	width:520px;
+}
+
+
+div.postContent p, div.commentContent p, div.stepCommentContent p, div.streamItem p { 
+	padding:0 0 3px 0 !important;
+}
+
+
+div.stepComment p.content {
+	padding: 0 !important;
+}
+
+p.dateCreated {
+	font-size: 10px;
+	color: #999999;
+}
+
+div#content form {
+	width:auto !important;
+	padding: 0 10px;
+}
+
+
+input.comment {
+	width: 300px;
+	float:left;
+	margin-right: 5px;
+}
+
+input[type="file"] {
+	width: 300px;
+}
+
+
+input#submitPost {
+	float:left;
+	margin: 5px;
+}
+
+input.submitComment, input#submitPost {
+	margin-top:5px;
+}
+
+
+
+
+
+/*div.postComment a.userPicture img, div.commentForm a.userPicture img { 
+	width: 30px;
+}*/
+
+div#postInput {
+	margin-bottom: 10px;
+}
+
+p#addAttachment {
+	cursor:pointer;
+	float:left;
+	background: url(../images/attachment.png) no-repeat left;
+	padding-left: 20px;
+}
+
+div#attachmentWrapper {
+	display:none;
+}
+
+
+div.attachment {
+	padding: 5px 10px 3px;
+	background: #E5E5E5;
+	margin:0 0 10px 0;
+}
+
+div.attachment p { 
+	background: url(../images/attachment.png) no-repeat left;
+	padding-left: 20px;
+}
+
+
+span.filesize: {
+
+}
+
+a.deletePost, a.deleteWallItem {
+	display:none;
+	background: url(../images/delete-icon.png) no-repeat left;
+    height: 12px;
+    width: 13px;
+    margin:-12px 0 0 555px;
+    position:absolute;
+}
+
+div.owoPost:hover a.deletePost, 
+div.streamItem:hover a.deleteWallItem,
+div.streamItem:hover span.stepText.edit { 
+	display:block;
+}
+
+
+
+p.stepPostCreator{
+	width: 300px;
+}
+
+p.stepPostContent, div.stepTextContent {
+}
+
+
+img.stepImage {
+	max-width: 400px;
+}
+
+
+span.wall.draggable {
+	background: url( "../images/draggable.gif") no-repeat;
+	width: 14px;
+	height: 14px;
+	display: none;
+	margin:1px 0 0 -516px;
+	position: absolute;
+	cursor: move;
+}
+
+span.stepText.edit { 
+	cursor:pointer;
+	margin:-12px 0 0 530px;
+	position: absolute;
+	display:none;
+}
+

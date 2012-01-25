@@ -1,0 +1,113 @@
+/**
+* This file is part of oWrks.
+*
+* oWrks is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+*  any later version.
+*
+* oWrks is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with oWrks.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* oWrks - button styles */
+
+a#all, a#public, a#community {
+    background: #ccc;
+    cursor: pointer;
+    color:#fff;
+    padding: 5px 5px;           
+}
+
+a#all:hover, a#public:hover, a#community:hover, a.down{
+	background: #8BC53E !important;
+	border: none;
+}
+
+.fbLikeButton {
+	float: left;
+}
+
+.glLikeButton {
+	float: left;
+	width: 70px;
+	margin-left: 10px;
+}
+
+.twLikeButton {
+	float: left;
+	width: 100px;	
+}
+
+.button, a.button, input.button{
+    background: #8bc53e;
+	color: #FFF;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: none 0;
+    cursor: pointer;
+	padding: 2px 20px;
+}
+
+.col1 .button{
+	margin: 5px 20px;
+}
+.col2 .button{
+	margin: 5px 10px;
+}
+.box .button{
+	margin: 0;
+}
+
+#login-box input.button {
+	margin-top: 5px;
+}
+
+a.edit, a.create, span.edit {
+	background: url( "../../images/edit.png") no-repeat;
+	border: none;
+	width: 14px;
+	height:14px;
+	display:block;
+	text-indent: -999em;
+	float:left;
+	margin:0 5px;
+}
+
+a.create {
+	background: url( "../../images/create.png") no-repeat;
+}
+
+h2 a.edit, h3 a.edit{
+ float: none;
+ display: inline-block;
+ margin: 0 5px;
+}
+
+a.deleteMission, a.deleteStep {
+	background: url( "../../images/delete.png") no-repeat;
+	border: none;
+	width: 14px;
+	height:14px;
+	display:block;
+	text-indent: -999em;
+	float:left;
+	margin:0 5px;
+}
+
+input.delete{
+	background: url( "../../images/delete.png") no-repeat;
+	border: none;
+	cursor: pointer;
+	width: 14px;
+	height:14px;
+	display:block;
+	text-indent: -999em;
+	float:left;
+	margin:0 5px;
+}

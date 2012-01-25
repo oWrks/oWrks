@@ -1,0 +1,74 @@
+/**
+* This file is part of oWrks.
+*
+* oWrks is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+*  any later version.
+*
+* oWrks is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with oWrks.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* oWrks - message styles */
+
+#flashmessage{
+	position: fixed; 
+	top: 0; 
+	width: 100%; 
+	padding: 10px;
+	text-align: center;
+}
+
+.flashMessage, #update, div#errors li{
+	margin: 0px 0 5px 0;
+    padding: 5px 5px 5px 10px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.flashMessage, #update {
+    background: #f3f8fc url(../../images/skin/information.png) 8px 50% no-repeat;
+    border: 1px solid #b2d1ff;
+    color: #006dba; 
+}
+
+div#errors ul{
+	margin: 0;
+	padding: 0;
+}
+
+div#errors li {
+    color: #BE4A37;
+}
+
+
+div.jGrowl div.jGrowl-closer,
+div.jGrowl div.jGrowl-notification.notify{	
+	border: green 4px solid;
+	
+}
+
+div#jGrowl{
+	top: 120px;
+}
+
+div.jGrowl div.jGrowl-notification.error{	
+	border: red 4px solid;
+	
+}
+
+.blockUI h1, .blockUI h2, .blockUI p{
+	color: black;
+}
+
+.notify_pending {
+	background-color: red !important;
+	color:white !important;
+	font-weight: bold;
+	padding: 2px 5px;
+}
