@@ -1,6 +1,6 @@
 # Ignored files
-log/*
-*.log
+logs/*
+target/*
 *.class
 
 # OS generated files #
